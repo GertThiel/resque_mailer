@@ -5,13 +5,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "resque_mailer"
-    gem.summary = %Q{Rails plugin for sending asynchronous email with ActionMailer and Resque}
-    gem.description = %Q{Rails plugin for sending asynchronous email with ActionMailer and Resque}
-    gem.email = "nap@zerosum.org"
-    gem.homepage = "http://github.com/zapnap/resque_mailer"
-    gem.authors = ["Nick Plante", "Marcin Kulik"]
+    gem.summary = %Q{Rails plugin for sending asynchronous email with ActionMailer and Resque (resque-igo, MongoDB)}
+    gem.description = %Q{Rails plugin for sending asynchronous email with ActionMailer and Resque (resque-igo, MongoDB)}
+    gem.email = "GertThiel@gmx.net"
+    gem.homepage = "https://github.com/GertThiel/resque_mailer"
+    gem.authors = ["Gert Thiel", "Nick Plante", "Marcin Kulik"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
-    gem.add_development_dependency "resque", ">= 1.2.3"
+    gem.add_development_dependency "resque-igo", "~> 1.12.8"
     gem.add_development_dependency "actionmailer", ">= 2.3.4"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
